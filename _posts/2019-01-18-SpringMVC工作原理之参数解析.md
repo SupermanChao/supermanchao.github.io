@@ -4,8 +4,8 @@ title: "SpringMVC工作原理之参数解析"
 subtitle: "SpringMVC参数解析"
 date: 2019-01-18
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: SpringMVC Spring 参数解析器 HandlerMethodArgumentResolver 消息转换器
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: SpringMVC Spring
 ---
 
 > 前面分析到 [SpringMVC 工作原理之处理映射[HandlerMapping]](https://www.jianshu.com/p/f04816ee2495) ，由映射处理器(`HandlerMapping`) 解析出对应的 `handler`。接着 [SpringMVC 工作原理之适配器[HandlerAdapter]](https://www.jianshu.com/p/23ad68d8b421) 描述了 `handler` 是怎么匹配到合适的适配器，进行 `handler` 对应方法的执行。其他几种适配器还好，但是 `RequestMappingHandlerAdapter` 适配器对应接下来的参数解析及绑定并执行并不是那么简单，**因此本篇笔记主要分析 `RequestMappingHandlerAdapter` 适配器解析对应 `handler` 的执行流程。**

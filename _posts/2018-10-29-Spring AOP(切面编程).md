@@ -4,8 +4,8 @@ title: "Spring AOP(切面编程)"
 subtitle: "切面编程"
 date: 2018-10-29
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: Java Spring AOP 切面编程 切面 切点 增强通知
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Java Spring AOP 切面编程
 ---
 
 > 最近在学习 Spring 框架，写这篇文章也算是对近段学习的一个总结，本文主要从**三种代理模式写起，静态代理、动态代理和 Cglib 代理**，然后到**Spring AOP 的配置及使用**，包括 XML 方式配置和注解两种实现方式

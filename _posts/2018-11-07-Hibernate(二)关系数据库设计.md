@@ -4,8 +4,8 @@ title: "Hibernate(二) 关系数据库设计"
 subtitle: "Hibernate 关系数据库设计"
 date: 2018-11-07
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: java orm Hibernate JDBC 数据库
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Hibernate
 ---
 
 > 最近重新学习了一遍 Hibernate 框架，感觉收益颇多。Hibernate 对于关系型数据库的配置还是有点麻烦的，所以在此做篇有关记录关系型数据库配置流程。

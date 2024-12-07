@@ -4,8 +4,8 @@ title: "Spring和MyBatis整合笔记"
 subtitle: "Spring和MyBatis整合笔记"
 date: 2018-11-22
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: java jdbc mysql mybatis spring
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: MyBatis Spring
 ---
 
 > 对于 Spring 框架和 MyBatis 框架整合，摸爬滚打总结了这篇笔记，MyBatis 用 XML 文件替代了 Dao 接口实现 java 文件，所以将 XML 注入到 Spring 容器可能比正常类注入难理解些。

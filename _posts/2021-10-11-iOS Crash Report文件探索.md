@@ -4,8 +4,8 @@ title: "iOS Crash Report文件探索"
 subtitle: "iOS Crash Report文件探索"
 date: 2021-10-11
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: iOS Crash Report
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Crash Report
 ---
 
 当 App 发生 Crash 时，系统会生成 Crash Report 并存储在设备上。Crash Report 会记录 App Crash 信息，一般情况下会包括完整的线程调用堆栈。

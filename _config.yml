@@ -79,13 +79,13 @@ exclude:
   ]
 
 # Markdown
-# markdown: kramdown
-# highlighter: rouge
-# kramdown:
-#   input: GFM
-
-markdown: gfm
+markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+
+# markdown: gfm
+# highlighter: rouge
 
 # RSS
 RSS: false

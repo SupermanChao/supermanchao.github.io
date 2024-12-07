@@ -4,8 +4,8 @@ title: "SpringMVC工作原理之视图解析及自定义"
 subtitle: "SpringMVC视图解析"
 date: 2019-01-20
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: SpringMVC Spring 视图解析器 视图 自定义视图 ViewResolver View
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: SpringMVC Spring
 ---
 
 > 本篇笔记记录分为两大部分:

@@ -4,8 +4,8 @@ title: "SpingMVC之annotation-driven标签"
 # subtitle: "subtitle"
 date: 2019-01-20
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: SpringMVC Spring mvc:annotation-driven
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: SpringMVC Spring
 ---
 
 > 对于 SpringMVC 的探索已经接近尾声，本篇笔记主要记录下 SpringMVC 为我们提供的一个神奇标签 `<mvc:annotation-driven/>`，这个标签会帮我们注入很多关键而实用的 bean，但是用它也得小心跟自己手动注入的 bean 重复，会造成不必要的麻烦。所以今天来了解下这个标签。

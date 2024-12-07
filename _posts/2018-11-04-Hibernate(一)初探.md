@@ -4,8 +4,8 @@ title: "Hibernate(一) 初探"
 subtitle: "Hibernate 初探"
 date: 2018-11-04
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: java orm Hibernate JDBC 数据库
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Hibernate
 ---
 
 > 最近重新学习了一遍 Hibernate 框架，感觉收益颇多，再次做个学习总结和笔记。本篇文章主要记录和总结 Hibernate 的基本配置项和 一级缓存及 Hibernate 中的对象状态。

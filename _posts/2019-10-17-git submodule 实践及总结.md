@@ -4,8 +4,8 @@ title: "git submodule 实践及总结"
 subtitle: "git 子模块"
 date: 2019-10-17
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: git submodule 子模块
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: git submodule
 ---
 
 > 合作开发，不得不使用 git 来进行项目管理，下面来记录下关于 git 的踩坑记录。

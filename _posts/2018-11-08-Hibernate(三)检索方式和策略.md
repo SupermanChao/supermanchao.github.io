@@ -4,8 +4,8 @@ title: "Hibernate(三) 检索方式和策略"
 subtitle: "Hibernate 检索方式和策略"
 date: 2018-11-08
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: java orm Hibernate JDBC 数据库
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Hibernate
 ---
 
 > 最近重新学习了一遍 Hibernate 框架，感觉收益颇多。学到最后不得不说下 Hibernate 的检索，为了提高检索速度，Hibernate 提供了**立即检索策略**、**延迟检索策略**和**左外连接检索策略**三种策略。为了满足用户不同习惯和多样化搜索需求，Hibernate 提供了五中检索数据的方式，这其中我主要记录了**HQL 检索方式**。

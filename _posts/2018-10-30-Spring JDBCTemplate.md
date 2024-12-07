@@ -4,8 +4,8 @@ title: "Spring JDBCTemplate"
 subtitle: "Spring JDBCTemplate学习"
 date: 2018-10-30
 categories: 学习笔记
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: Java JDBC JDBCTemplate
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Java JDBC
 ---
 
 > 最近学习 Spring 框架，写这篇文章是对这段时间学习的一个总结也是学习的笔记，这篇笔记主要讲 Spring 提供的一个简易持久层操作数据的模板**JDBCTemplate**的增删改查功能，他跟自己用**DBUtils**封装的持久层有点类似。

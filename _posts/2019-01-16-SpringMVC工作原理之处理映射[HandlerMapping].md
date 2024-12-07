@@ -4,8 +4,8 @@ title: "SpringMVC工作原理之处理映射[HandlerMapping]"
 subtitle: "SpringMVC映射器"
 date: 2019-01-16
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: SpringMVC Spring HandlerMapping SimpleUrlHandlerMapping
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: SpringMVC Spring
 ---
 
 > 请求过来是怎么映射到对应的方法上，这里离不开映射处理器 `HandlerMapping`，今天这篇笔记就来探究 `HandlerMapping` 实现逻辑。

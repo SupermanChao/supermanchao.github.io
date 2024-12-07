@@ -4,8 +4,8 @@ title: "MyBatis进阶-Ehcache实现缓存"
 subtitle: "MyBatis使用Ehcache实现二级缓存"
 date: 2018-11-15
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: java jdbc mysql mybatis
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: Java MyBatis Ehcache
 ---
 
 > 最近在探寻 MyBatis 持久层框架，发现入门简单，但是随着满足各种需求的增加，MyBatis 的功能也让人眼花缭乱。今天写笔记来记录下一个第三方缓存框架 Ehcache 和 MyBatis 的简单配合使用，来实现数据缓存。

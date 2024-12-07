@@ -4,8 +4,8 @@ title: "Link Map File探索和脚本计算"
 subtitle: "Link Map File计算探索"
 date: 2021-10-21
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: Link Map File C++ Shell Python
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: LinkMapFile C++ Shell Python
 ---
 
 # 1、Link Map File 是啥

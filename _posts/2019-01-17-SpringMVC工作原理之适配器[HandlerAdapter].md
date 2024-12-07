@@ -4,8 +4,8 @@ title: "SpringMVC工作原理之适配器[HandlerAdapter]"
 subtitle: "SpringMVC适配器"
 date: 2019-01-17
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: SpringMVC Spring HandlerAdapter RequestMappingHandlerAdapter
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: SpringMVC Spring
 ---
 
 > 前面说到 [SpringMVC 工作原理之处理映射[HandlerMapping]](https://www.jianshu.com/p/f04816ee2495) ，由映射处理器(`HandlerMapping`) 映射出对应的 `handler`，但是接下来的 `handler` 是怎么去解析，怎么去调用 `handler` 对应的视图方法，这个时候就需要用到 `handler` 的适配器。

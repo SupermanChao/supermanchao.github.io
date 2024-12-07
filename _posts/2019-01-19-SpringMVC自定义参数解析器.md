@@ -4,8 +4,8 @@ title: "SpringMVC自定义参数解析器"
 # subtitle: "SpringMVC自定义参数解析器"
 date: 2019-01-19
 categories: 技术
-cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
-tags: SpringMVC Spring 参数解析器
+# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+tags: SpringMVC Spring
 ---
 
 > 前面一篇[SpringMVC 工作原理之参数解析](https://www.jianshu.com/p/2bfd65bc9ce4)分析了参数解析及转换的过程，先是通过参数解析器解析参数，然后再是转换器转换参数，最终绑定到对应 RequestMapping 方法参数上。但是在有些时候 SpringMVC 提供的参数解析器或参数转换器满足不了我们的需求，这个时候就需要我们自己按照 SpringMVC 提供的接口进行自定义。
