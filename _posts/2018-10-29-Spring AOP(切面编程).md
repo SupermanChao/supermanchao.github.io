@@ -4,7 +4,7 @@ title: "Spring AOP(切面编程)"
 subtitle: "切面编程"
 date: 2018-10-29
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: Java Spring AOP 切面编程
 ---
 

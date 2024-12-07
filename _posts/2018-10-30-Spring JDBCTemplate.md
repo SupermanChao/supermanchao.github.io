@@ -4,7 +4,7 @@ title: "Spring JDBCTemplate"
 subtitle: "Spring JDBCTemplate学习"
 date: 2018-10-30
 categories: 学习笔记
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: Java JDBC
 ---
 

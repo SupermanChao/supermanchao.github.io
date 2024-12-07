@@ -4,7 +4,7 @@ title: "MyBatis进阶-Ehcache实现缓存"
 subtitle: "MyBatis使用Ehcache实现二级缓存"
 date: 2018-11-15
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: Java MyBatis Ehcache
 ---
 

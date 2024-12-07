@@ -4,7 +4,7 @@ title: "Hibernate(三) 检索方式和策略"
 subtitle: "Hibernate 检索方式和策略"
 date: 2018-11-08
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: Hibernate
 ---
 

@@ -4,7 +4,7 @@ title: "Hibernate(一) 初探"
 subtitle: "Hibernate 初探"
 date: 2018-11-04
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: Hibernate
 ---
 

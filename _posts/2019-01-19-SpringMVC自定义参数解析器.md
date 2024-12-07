@@ -4,7 +4,7 @@ title: "SpringMVC自定义参数解析器"
 # subtitle: "SpringMVC自定义参数解析器"
 date: 2019-01-19
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: SpringMVC Spring
 ---
 

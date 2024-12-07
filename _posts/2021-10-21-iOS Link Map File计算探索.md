@@ -4,7 +4,7 @@ title: "Link Map File探索和脚本计算"
 subtitle: "Link Map File计算探索"
 date: 2021-10-21
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: LinkMapFile C++ Shell Python
 ---
 

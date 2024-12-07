@@ -4,7 +4,7 @@ title: "SpringMVC工作原理之适配器[HandlerAdapter]"
 subtitle: "SpringMVC适配器"
 date: 2019-01-17
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: SpringMVC Spring
 ---
 

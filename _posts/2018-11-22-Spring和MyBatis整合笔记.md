@@ -4,7 +4,7 @@ title: "Spring和MyBatis整合笔记"
 subtitle: "Spring和MyBatis整合笔记"
 date: 2018-11-22
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: MyBatis Spring
 ---
 

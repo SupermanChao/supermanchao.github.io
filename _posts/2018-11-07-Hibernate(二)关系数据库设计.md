@@ -4,7 +4,7 @@ title: "Hibernate(二) 关系数据库设计"
 subtitle: "Hibernate 关系数据库设计"
 date: 2018-11-07
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: Hibernate
 ---
 

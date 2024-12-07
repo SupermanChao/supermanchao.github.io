@@ -4,7 +4,7 @@ title: "git submodule 实践及总结"
 subtitle: "git 子模块"
 date: 2019-10-17
 categories: 技术
-# cover: "http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg"
+# cover: ""
 tags: git submodule
 ---
 
