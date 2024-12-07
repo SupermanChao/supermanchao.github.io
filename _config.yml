@@ -66,7 +66,7 @@ recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 30 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
-paginate: 6
+paginate: 20
 paginate_path: "page:num"
 exclude:
   [
@@ -79,10 +79,13 @@ exclude:
   ]
 
 # Markdown
-markdown: kramdown
+# markdown: kramdown
+# highlighter: rouge
+# kramdown:
+#   input: GFM
+
+markdown: gfm
 highlighter: rouge
-kramdown:
-  input: GFM
 
 # RSS
 RSS: false
