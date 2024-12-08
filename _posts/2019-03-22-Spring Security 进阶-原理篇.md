@@ -29,11 +29,11 @@ protected void configure(HttpSecurity http) throws Exception {
  }
 ```
 
-## 身份认证流程
+# 身份认证流程
 
 在开始身份认证流程之前我们需要了解下几个基本概念
 
-### 1.SecurityContextHolder
+## 1.SecurityContextHolder
 
 `SecurityContextHolder` 存储 `SecurityContext` 对象。`SecurityContextHolder` 是一个存储代理，有三种存储模式分别是：
 
@@ -54,7 +54,7 @@ SecurityContextHolder.getContext().setAuthentication(authResult);
 SecurityContextHolder.clearContext();
 ```
 
-### 2.Authentication
+## 2.Authentication
 
 `Authentication` 即验证，表明当前用户是谁。什么是验证，比如一组用户名和密码就是验证，当然错误的用户名和密码也是验证，只不过 Spring Security 会校验失败。
 
@@ -93,7 +93,7 @@ public interface AuthenticationProvider {
 
 接下来就是遍历 `ProviderManager` 里面的 `providers` 集合，找到和合适的 `AuthenticationProvider` 完成身份认证。
 
-### 4.UserDetailsService UserDetails
+## 4.UserDetailsService UserDetails
 
 在 `UserDetailsService` 接口中只有一个简单的方法
 
@@ -104,7 +104,7 @@ public interface UserDetailsService {
 }
 ```
 
-### 5.流程
+## 5.流程
 
 对于上面概念有什么不明白的地方，在们在接下来的流程中慢慢分析
 
@@ -155,7 +155,7 @@ public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
 }
 ```
 
-#### 5.1 认证失败处理逻辑
+### 5.1 认证失败处理逻辑
 
 ```java
 protected void unsuccessfulAuthentication(HttpServletRequest request,
@@ -223,7 +223,7 @@ public class SimpleUrlAuthenticationFailureHandler implements
 
 **这里做下小拓展：用系统的错误处理 handler，指定认证失败跳转的 URL，在 MVC 里面对应的 URL 方法里面可以通过 key 从`request`或`session`里面拿到错误信息，反馈给前端**
 
-#### 5.2 认证成功处理逻辑
+### 5.2 认证成功处理逻辑
 
 ```java
 protected void successfulAuthentication(HttpServletRequest request,
@@ -247,7 +247,7 @@ protected void successfulAuthentication(HttpServletRequest request,
 
 这里默认配置的成功处理 handler 是 `SavedRequestAwareAuthenticationSuccessHandler`，里面的代码就不做具体展开了，反正是跳转到指定的认证成功之后的界面，**可自定义**。
 
-#### 5.3 身份认证详情
+### 5.3 身份认证详情
 
 ```java
 public class UsernamePasswordAuthenticationFilter extends
@@ -510,7 +510,7 @@ public interface PasswordEncoder {
 
 ## 该接口实现类有下面这几个
 
-![clipboard.png](/assets/img/2019-03-23/1304272651-5c94c51ea42c4_fix732.webp)
+![clipboard.png](/assets/img/2019-03-22/1304272651-5c94c51ea42c4_fix732.webp)
 
 其中常用到的分别有下面这么几个
 
