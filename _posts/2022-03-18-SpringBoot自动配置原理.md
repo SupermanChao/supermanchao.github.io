@@ -461,7 +461,7 @@ public class AliPayClientImpl {
 
 因为`Starter`的包名跟项目包名应该不一致，所以`SpringBoot`没法扫描和注入`Starter 里面的配置，
 
-`SpringBoot`程序在启动时会通过`@EnableAutoConfiguration`注解扫描所有项目和项目引用 jar 包里面的`classpatch`路径下的`META-INF/spring.factories`文件中自定义的配置类，将对应配置加载进容器中
+`SpringBoot`程序在启动时会通过`@EnableAutoConfiguration`注解扫描所有项目和项目引用 jar 包里面的`classpath`路径下的`META-INF/spring.factories`文件中自定义的配置类，将对应配置加载进容器中
 
 ```
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
