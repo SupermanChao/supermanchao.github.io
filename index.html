@@ -79,7 +79,7 @@ description: 记录日常学习和成长
 
             {% if site.recommend-tags and site.tags.size>0 %}
             <section class="tags-card">
-                {% for tag in site.tags %}
+                {% for tag in site.tags reversed %}
                     {% if forloop.index > site.recommend-condition-size %}
                         {% break %}
                     {% endif %}

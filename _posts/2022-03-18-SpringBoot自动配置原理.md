@@ -4,7 +4,7 @@ title: "SpringBoot自动配置原理"
 subtitle: "SpringBoot自动配置原理及自定义启动器"
 date: 2022-03-18
 categories: 技术
-# cover: ""
+cover: "../assets/img/2022-03-18/SpringBootCover.png"
 tags: Java SpringBoot
 ---
 
