@@ -133,6 +133,18 @@
   var POSTS_PER_PAGE = 10;
   var currentPage = 1;
 
+  // 保存和恢复当前页码
+  function saveCurrentPage() {
+    sessionStorage.setItem('homePage', currentPage);
+  }
+
+  function restoreCurrentPage() {
+    var savedPage = sessionStorage.getItem('homePage');
+    if (savedPage) {
+      currentPage = parseInt(savedPage);
+    }
+  }
+
   function initPagination() {
     var postList = document.querySelector('.post-list');
     var paginationEl = document.getElementById('pagination');
@@ -182,14 +194,114 @@
         }else {
           return;
         }
+        saveCurrentPage();
         initPagination();
         // 滚动到文章列表顶部
-        var header = document.querySelector('.home-header');
-        if (header) {
-          header.scrollIntoView({ behavior: 'smooth' });
+        var heroBanner = document.querySelector('.hero-banner');
+        if (heroBanner) {
+          heroBanner.scrollIntoView({ behavior: 'smooth' });
         }
       });
     });
+  }
+
+  // === Hero Banner 动态统计数字 ===
+  function animateStats() {
+    var statNumbers = document.querySelectorAll('.stat-number');
+    statNumbers.forEach(function(stat) {
+      var text = stat.textContent;
+      var num = parseInt(text);
+      if (isNaN(num)) return;
+
+      var duration = 1500;
+      var start = 0;
+      var startTime = null;
+
+      function animate(currentTime) {
+        if (!startTime) startTime = currentTime;
+        var progress = (currentTime - startTime) / duration;
+
+        if (progress < 1) {
+          var current = Math.floor(start + (num - start) * easeOutQuad(progress));
+          stat.textContent = current + (text.includes('+') ? '+' : '');
+          requestAnimationFrame(animate);
+        } else {
+          stat.textContent = text;
+        }
+      }
+
+      function easeOutQuad(t) {
+        return t * (2 - t);
+      }
+
+      requestAnimationFrame(animate);
+    });
+  }
+
+  // === 首页页脚管理 ===
+  function addHomeFooter() {
+    // 避免重复添加
+    if (document.querySelector('.home-footer')) return;
+
+    var footer = document.createElement('footer');
+    footer.className = 'home-footer';
+    footer.innerHTML = `
+      <div class="footer-content">
+        <p class="copyright">© 2014-2026 Hyper的技术博客 · All Rights Reserved</p>
+        <p class="powered-by">Powered by <a href="https://docsify.js.org" target="_blank">Docsify</a></p>
+      </div>
+    `;
+
+    var mainContent = document.querySelector('.content');
+    if (mainContent) {
+      mainContent.appendChild(footer);
+    }
+  }
+
+  function removeHomeFooter() {
+    var footer = document.querySelector('.home-footer');
+    if (footer) {
+      footer.remove();
+    }
+  }
+
+  // === 首页背景粒子动画 ===
+  function createParticles() {
+    // 避免重复创建
+    if (document.querySelector('.particles-container')) return;
+
+    var container = document.createElement('div');
+    container.className = 'particles-container';
+
+    // 创建40个粒子（增加数量）
+    for (var i = 0; i < 40; i++) {
+      var particle = document.createElement('div');
+      particle.className = 'particle';
+
+      // 随机位置
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+
+      // 随机大小（增大尺寸范围）
+      var size = Math.random() * 8 + 4;
+      particle.style.width = size + 'px';
+      particle.style.height = size + 'px';
+
+      // 随机动画延迟和持续时间
+      particle.style.animationDelay = Math.random() * 20 + 's';
+      particle.style.animationDuration = (Math.random() * 10 + 15) + 's';
+
+      container.appendChild(particle);
+    }
+
+    document.body.appendChild(container);
+  }
+
+  function removeParticles() {
+    var container = document.querySelector('.particles-container');
+    if (container) {
+      container.remove();
+    }
   }
 
   // === Docsify 插件 ===
@@ -217,15 +329,25 @@
           if (pagination) pagination.style.display = 'none';
           if (mainContent) mainContent.style.paddingLeft = '0';
           document.body.classList.add('is-home');
-          // 切换回首页时重置分页
-          currentPage = 1;
+          // 恢复之前的页码
+          restoreCurrentPage();
           initPagination();
+          // 动画统计数字
+          setTimeout(animateStats, 100);
+          // 添加页脚
+          addHomeFooter();
+          // 创建粒子动画
+          createParticles();
         }else {
           if (sidebar) sidebar.style.display = '';
           if (sidebarToggle) sidebarToggle.style.display = '';
           if (pagination) pagination.style.display = '';
           if (mainContent) mainContent.style.paddingLeft = '';
           document.body.classList.remove('is-home');
+          // 移除首页页脚
+          removeHomeFooter();
+          // 移除粒子动画
+          removeParticles();
         }
 
         // 初始化文章卡片点击

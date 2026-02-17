@@ -1,6 +1,31 @@
-<!-- <div class="home-header">
-  <h1 class="home-title">Hyper的技术博客</h1>
-</div> -->
+<div class="hero-banner">
+  <div class="hero-avatar-wrapper">
+    <img class="hero-avatar" src="assets/images/profile.JPG" alt="Hyper">
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-title">
+      <span class="gradient-text">Hyper</span> 的技术空间
+    </h1>
+    <p class="hero-subtitle">探索技术边界 · 记录成长轨迹 · 分享实践经验</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">15</span>
+        <span class="stat-label">技术文章</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">20+</span>
+        <span class="stat-label">技术标签</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">5+</span>
+        <span class="stat-label">技术领域</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-decoration">
+    <div class="tech-grid"></div>
+  </div>
+</div>
 
 <div class="home-layout">
 
@@ -308,7 +333,7 @@
     </div>
   </div>
   <h3 class="post-title">
-    <a href="#/posts/2017-12-25-套接字(Socket)编程(一) 函数概念篇/README.md">套接字(Socket)编程(一) 函数概念篇</a>
+    <a href="#/posts/2017-12-25-套接字(Socket)编程(一)函数概念篇/README.md">套接字(Socket)编程(一) 函数概念篇</a>
   </h3>
   <p class="post-excerpt">
     套接字是网络通信的基石，是网络通信的基本构建，最初是由加利福利亚大学 Berkeley 分校为 UNIX 开发的网络通信编程接口，本文主要介绍套接字的有关内容，了解使用套接字编写程序过程
@@ -324,36 +349,4 @@
 
 </div>
 
-<aside class="profile-sidebar">
-  <div class="profile-card">
-    <img class="profile-avatar" src="assets/images/profile.JPG" alt="头像">
-    <h3 class="profile-name">Hyper的技术博客</h3>
-    <p class="profile-bio">💡 用心记录，分享技术与思考</p>
-    <div class="profile-stats">
-      <div class="profile-stat-item">
-        <span class="profile-stat-num">15</span>
-        <span class="profile-stat-label">文章</span>
-      </div>
-      <div class="profile-stat-item">
-        <span class="profile-stat-num">20</span>
-        <span class="profile-stat-label">标签</span>
-      </div>
-    </div>
-    <!-- <div class="profile-tags">
-      <span class="tag">Git</span>
-      <span class="tag">git submodule</span>
-    </div> -->
-    <div class="profile-links">
-      <a href="#/about/">👤 关于我</a>
-    </div>
-  </div>
-</aside>
-
 </div>
-
-<footer class="site-footer">
-  <div class="footer-content">
-    <p class="copyright">© 2014-2026 Hyper的技术博客 · All Rights Reserved</p>
-    <p class="powered-by">Powered by <a href="https://docsify.js.org" target="_blank">Docsify</a></p>
-  </div>
-</footer>
