@@ -56,6 +56,27 @@
 
 <article class="post-card">
   <div class="post-meta">
+    <span class="post-date">📅 2025-02-17</span>
+    <div class="post-tags">
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">Database</span>
+      <span class="tag">SQL</span>
+    </div>
+  </div>
+  <h3 class="post-title">
+    <a href="#/posts/2025-02-17-PostgreSQL从入门到精通/README.md">PostgreSQL 从入门到精通</a>
+  </h3>
+  <p class="post-excerpt">
+    本文专注于PostgreSQL（简称PgSQL）的实操用法，从基础SQL操作到高级特性（索引、事务、存储过程等）逐步递进，适合已完成安装、希望快速上手并精通PgSQL的开发者。
+  </p>
+  <div class="post-footer">
+    <span class="read-more">阅读全文 →</span>
+    <span class="read-time">⏱️ 约 30 分钟</span>
+  </div>
+</article>
+
+<article class="post-card">
+  <div class="post-meta">
     <span class="post-date">📅 2022-03-18</span>
     <div class="post-tags">
       <span class="tag">SpringBoot</span>
