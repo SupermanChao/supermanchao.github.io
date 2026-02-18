@@ -117,6 +117,27 @@
 
 <article class="post-card">
   <div class="post-meta">
+    <span class="post-date">📅 2019-11-11</span>
+    <div class="post-tags">
+      <span class="tag">MySQL</span>
+      <span class="tag">数据库</span>
+      <span class="tag">SQL</span>
+    </div>
+  </div>
+  <h3 class="post-title">
+    <a href="#/posts/2019-11-11-MySQL学习笔记/README.md">MySQL学习笔记</a>
+  </h3>
+  <p class="post-excerpt">
+    本篇文章为我个人 MySQL 基础知识学习笔记，记录得比较粗略，旨在自己能看懂，所以各位读者如果恰好看到本篇笔记并阅读，遇到不详细的地方还是需要自己查更详细的资料，见谅！！！
+  </p>
+  <div class="post-footer">
+    <span class="read-more">阅读全文 →</span>
+    <span class="read-time">⏱️ 约 30 分钟</span>
+  </div>
+</article>
+
+<article class="post-card">
+  <div class="post-meta">
     <span class="post-date">📅 2019-10-17</span>
     <div class="post-tags">
       <span class="tag">git submodule</span>

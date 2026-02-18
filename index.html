@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
   <title>Hyper的技术空间</title>
@@ -17,10 +18,11 @@
   <!-- Prism Code Highlighting Theme -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1/themes/prism.css">
 </head>
+
 <body>
   <script>
     // 首页初始加载时立即隐藏侧边栏，防止闪烁
-    (function() {
+    (function () {
       var hash = window.location.hash;
       if (hash === '#/' || hash === '' || hash === '#/home') {
         document.body.classList.add('is-home');
@@ -152,4 +154,5 @@
   <!-- 自定义脚本 -->
   <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
